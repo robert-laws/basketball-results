@@ -1,0 +1,223 @@
+[
+  {
+    "year": 2024,
+    "champion": "Boston Celtics",
+    "runnerUp": "Dallas Mavericks",
+    "series": "4-1",
+    "mvp": "Jaylen Brown",
+    "games": [
+      { "game": 1, "winner": "Boston Celtics", "score": "107-89", "location": "Boston" },
+      { "game": 2, "winner": "Boston Celtics", "score": "105-98", "location": "Boston" },
+      { "game": 3, "winner": "Dallas Mavericks", "score": "122-84", "location": "Dallas" },
+      { "game": 4, "winner": "Boston Celtics", "score": "122-84", "location": "Dallas" },
+      { "game": 5, "winner": "Boston Celtics", "score": "106-88", "location": "Boston" }
+    ]
+  },
+  {
+    "year": 2023,
+    "champion": "Denver Nuggets",
+    "runnerUp": "Miami Heat",
+    "series": "4-1",
+    "mvp": "Nikola Jokić",
+    "games": [
+      { "game": 1, "winner": "Denver Nuggets", "score": "104-93", "location": "Denver" },
+      { "game": 2, "winner": "Denver Nuggets", "score": "108-111 (OT)", "location": "Denver" },
+      { "game": 3, "winner": "Miami Heat", "score": "109-94", "location": "Miami" },
+      { "game": 4, "winner": "Denver Nuggets", "score": "108-95", "location": "Miami" },
+      { "game": 5, "winner": "Denver Nuggets", "score": "94-89", "location": "Denver" }
+    ]
+  },
+  {
+    "year": 2022,
+    "champion": "Golden State Warriors",
+    "runnerUp": "Boston Celtics",
+    "series": "4-2",
+    "mvp": "Stephen Curry",
+    "games": [
+      { "game": 1, "winner": "Boston Celtics", "score": "120-108", "location": "San Francisco" },
+      { "game": 2, "winner": "Golden State Warriors", "score": "107-88", "location": "San Francisco" },
+      { "game": 3, "winner": "Boston Celtics", "score": "116-100", "location": "Boston" },
+      { "game": 4, "winner": "Golden State Warriors", "score": "107-97", "location": "Boston" },
+      { "game": 5, "winner": "Golden State Warriors", "score": "104-94", "location": "San Francisco" },
+      { "game": 6, "winner": "Golden State Warriors", "score": "103-90", "location": "Boston" }
+    ]
+  },
+  {
+    "year": 2021,
+    "champion": "Milwaukee Bucks",
+    "runnerUp": "Phoenix Suns",
+    "series": "4-2",
+    "mvp": "Giannis Antetokounmpo",
+    "games": [
+      { "game": 1, "winner": "Phoenix Suns", "score": "118-105", "location": "Phoenix" },
+      { "game": 2, "winner": "Phoenix Suns", "score": "118-108", "location": "Phoenix" },
+      { "game": 3, "winner": "Milwaukee Bucks", "score": "120-100", "location": "Milwaukee" },
+      { "game": 4, "winner": "Milwaukee Bucks", "score": "109-103", "location": "Milwaukee" },
+      { "game": 5, "winner": "Milwaukee Bucks", "score": "123-119", "location": "Phoenix" },
+      { "game": 6, "winner": "Milwaukee Bucks", "score": "105-98", "location": "Milwaukee" }
+    ]
+  },
+  {
+    "year": 2020,
+    "champion": "Los Angeles Lakers",
+    "runnerUp": "Miami Heat",
+    "series": "4-2",
+    "mvp": "LeBron James",
+    "games": [
+      { "game": 1, "winner": "Los Angeles Lakers", "score": "116-98", "location": "Orlando (Bubble)" },
+      { "game": 2, "winner": "Los Angeles Lakers", "score": "124-114", "location": "Orlando (Bubble)" },
+      { "game": 3, "winner": "Miami Heat", "score": "115-104", "location": "Orlando (Bubble)" },
+      { "game": 4, "winner": "Los Angeles Lakers", "score": "102-96", "location": "Orlando (Bubble)" },
+      { "game": 5, "winner": "Miami Heat", "score": "111-108", "location": "Orlando (Bubble)" },
+      { "game": 6, "winner": "Los Angeles Lakers", "score": "106-93", "location": "Orlando (Bubble)" }
+    ]
+  },
+  {
+    "year": 2019,
+    "champion": "Toronto Raptors",
+    "runnerUp": "Golden State Warriors",
+    "series": "4-2",
+    "mvp": "Kawhi Leonard",
+    "games": [
+      { "game": 1, "winner": "Toronto Raptors", "score": "118-109", "location": "Toronto" },
+      { "game": 2, "winner": "Golden State Warriors", "score": "109-104", "location": "Toronto" },
+      { "game": 3, "winner": "Toronto Raptors", "score": "123-109", "location": "Oakland" },
+      { "game": 4, "winner": "Golden State Warriors", "score": "106-105", "location": "Oakland" },
+      { "game": 5, "winner": "Toronto Raptors", "score": "105-106", "location": "Toronto" },
+      { "game": 6, "winner": "Toronto Raptors", "score": "114-110", "location": "Oakland" }
+    ]
+  },
+  {
+    "year": 2018,
+    "champion": "Golden State Warriors",
+    "runnerUp": "Cleveland Cavaliers",
+    "series": "4-0",
+    "mvp": "Kevin Durant",
+    "games": [
+      { "game": 1, "winner": "Golden State Warriors", "score": "124-114 (OT)", "location": "Oakland" },
+      { "game": 2, "winner": "Golden State Warriors", "score": "122-103", "location": "Oakland" },
+      { "game": 3, "winner": "Golden State Warriors", "score": "110-102", "location": "Cleveland" },
+      { "game": 4, "winner": "Golden State Warriors", "score": "108-85", "location": "Cleveland" }
+    ]
+  },
+  {
+    "year": 2017,
+    "champion": "Golden State Warriors",
+    "runnerUp": "Cleveland Cavaliers",
+    "series": "4-1",
+    "mvp": "Kevin Durant",
+    "games": [
+      { "game": 1, "winner": "Golden State Warriors", "score": "113-91", "location": "Oakland" },
+      { "game": 2, "winner": "Golden State Warriors", "score": "132-113", "location": "Oakland" },
+      { "game": 3, "winner": "Cleveland Cavaliers", "score": "137-116", "location": "Cleveland" },
+      { "game": 4, "winner": "Golden State Warriors", "score": "129-120", "location": "Cleveland" },
+      { "game": 5, "winner": "Golden State Warriors", "score": "129-120", "location": "Oakland" }
+    ]
+  },
+  {
+    "year": 2016,
+    "champion": "Cleveland Cavaliers",
+    "runnerUp": "Golden State Warriors",
+    "series": "4-3",
+    "mvp": "LeBron James",
+    "games": [
+      { "game": 1, "winner": "Golden State Warriors", "score": "104-89", "location": "Oakland" },
+      { "game": 2, "winner": "Golden State Warriors", "score": "110-77", "location": "Oakland" },
+      { "game": 3, "winner": "Cleveland Cavaliers", "score": "120-90", "location": "Cleveland" },
+      { "game": 4, "winner": "Golden State Warriors", "score": "108-97", "location": "Cleveland" },
+      { "game": 5, "winner": "Cleveland Cavaliers", "score": "112-97", "location": "Oakland" },
+      { "game": 6, "winner": "Cleveland Cavaliers", "score": "115-101", "location": "Cleveland" },
+      { "game": 7, "winner": "Cleveland Cavaliers", "score": "93-89", "location": "Oakland" }
+    ]
+  },
+  {
+    "year": 2015,
+    "champion": "Golden State Warriors",
+    "runnerUp": "Cleveland Cavaliers",
+    "series": "4-2",
+    "mvp": "Andre Iguodala",
+    "games": [
+      { "game": 1, "winner": "Golden State Warriors", "score": "108-100 (OT)", "location": "Oakland" },
+      { "game": 2, "winner": "Cleveland Cavaliers", "score": "95-93 (OT)", "location": "Oakland" },
+      { "game": 3, "winner": "Cleveland Cavaliers", "score": "96-91", "location": "Cleveland" },
+      { "game": 4, "winner": "Golden State Warriors", "score": "103-82", "location": "Cleveland" },
+      { "game": 5, "winner": "Golden State Warriors", "score": "104-91", "location": "Oakland" },
+      { "game": 6, "winner": "Golden State Warriors", "score": "105-97", "location": "Cleveland" }
+    ]
+  },
+  {
+    "year": 2014,
+    "champion": "San Antonio Spurs",
+    "runnerUp": "Miami Heat",
+    "series": "4-1",
+    "mvp": "Kawhi Leonard",
+    "games": [
+      { "game": 1, "winner": "San Antonio Spurs", "score": "110-95", "location": "San Antonio" },
+      { "game": 2, "winner": "Miami Heat", "score": "98-96", "location": "San Antonio" },
+      { "game": 3, "winner": "San Antonio Spurs", "score": "111-92", "location": "Miami" },
+      { "game": 4, "winner": "San Antonio Spurs", "score": "107-86", "location": "Miami" },
+      { "game": 5, "winner": "San Antonio Spurs", "score": "104-87", "location": "San Antonio" }
+    ]
+  },
+  {
+    "year": 2013,
+    "champion": "Miami Heat",
+    "runnerUp": "San Antonio Spurs",
+    "series": "4-3",
+    "mvp": "LeBron James",
+    "games": [
+      { "game": 1, "winner": "San Antonio Spurs", "score": "92-88", "location": "Miami" },
+      { "game": 2, "winner": "Miami Heat", "score": "103-84", "location": "Miami" },
+      { "game": 3, "winner": "San Antonio Spurs", "score": "113-77", "location": "San Antonio" },
+      { "game": 4, "winner": "Miami Heat", "score": "109-93", "location": "San Antonio" },
+      { "game": 5, "winner": "San Antonio Spurs", "score": "114-104", "location": "San Antonio" },
+      { "game": 6, "winner": "Miami Heat", "score": "103-100 (OT)", "location": "Miami" },
+      { "game": 7, "winner": "Miami Heat", "score": "95-88", "location": "Miami" }
+    ]
+  },
+  {
+    "year": 2012,
+    "champion": "Miami Heat",
+    "runnerUp": "Oklahoma City Thunder",
+    "series": "4-1",
+    "mvp": "LeBron James",
+    "games": [
+      { "game": 1, "winner": "Oklahoma City Thunder", "score": "105-94", "location": "Oklahoma City" },
+      { "game": 2, "winner": "Miami Heat", "score": "100-96", "location": "Oklahoma City" },
+      { "game": 3, "winner": "Miami Heat", "score": "91-85", "location": "Miami" },
+      { "game": 4, "winner": "Miami Heat", "score": "104-98", "location": "Miami" },
+      { "game": 5, "winner": "Miami Heat", "score": "121-106", "location": "Miami" }
+    ]
+  },
+  {
+    "year": 2011,
+    "champion": "Dallas Mavericks",
+    "runnerUp": "Miami Heat",
+    "series": "4-2",
+    "mvp": "Dirk Nowitzki",
+    "games": [
+      { "game": 1, "winner": "Miami Heat", "score": "92-84", "location": "Miami" },
+      { "game": 2, "winner": "Dallas Mavericks", "score": "95-93", "location": "Miami" },
+      { "game": 3, "winner": "Miami Heat", "score": "88-86", "location": "Dallas" },
+      { "game": 4, "winner": "Dallas Mavericks", "score": "86-83", "location": "Dallas" },
+      { "game": 5, "winner": "Dallas Mavericks", "score": "112-103", "location": "Dallas" },
+      { "game": 6, "winner": "Dallas Mavericks", "score": "105-95", "location": "Miami" }
+    ]
+  },
+  {
+    "year": 2010,
+    "champion": "Los Angeles Lakers",
+    "runnerUp": "Boston Celtics",
+    "series": "4-3",
+    "mvp": "Kobe Bryant",
+    "games": [
+      { "game": 1, "winner": "Boston Celtics", "score": "102-89", "location": "Los Angeles" },
+      { "game": 2, "winner": "Boston Celtics", "score": "103-94", "location": "Los Angeles" },
+      { "game": 3, "winner": "Los Angeles Lakers", "score": "91-84", "location": "Boston" },
+      { "game": 4, "winner": "Boston Celtics", "score": "96-89", "location": "Boston" },
+      { "game": 5, "winner": "Los Angeles Lakers", "score": "86-78", "location": "Boston" },
+      { "game": 6, "winner": "Los Angeles Lakers", "score": "89-67", "location": "Los Angeles" },
+      { "game": 7, "winner": "Los Angeles Lakers", "score": "83-79", "location": "Los Angeles" }
+    ]
+  }
+]
