@@ -1,6 +1,8 @@
 import { useParams, Link } from 'react-router-dom'
 import finalsData from '../data/finals.json'
 import type { Finals } from '../types'
+import Card from './common/Card'
+import StatBox from './common/StatBox'
 
 const finals = finalsData as Finals[]
 
@@ -25,93 +27,150 @@ export default function FinalsDetailPage() {
     <div>
       <Link
         to="/"
-        className="inline-flex items-center text-nba-blue hover:underline mb-6"
+        className="inline-flex items-center text-sm text-gray-600 hover:text-gray-900 mb-6 transition-colors"
       >
         ← Back to all Finals
       </Link>
 
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-        <div className="bg-nba-blue text-white p-6">
-          <h2 className="text-4xl font-bold mb-2">{final.year} NBA Finals</h2>
-          <p className="text-xl opacity-90">
-            {final.champion} vs {final.runnerUp}
-          </p>
-        </div>
-
-        <div className="p-6">
-          <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-              <div className="text-sm text-green-600 font-medium mb-1">
-                Champion
-              </div>
-              <div className="text-2xl font-bold text-green-800">
-                {final.champion}
-              </div>
-            </div>
-            <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
-              <div className="text-sm text-gray-600 font-medium mb-1">
-                Series Result
-              </div>
-              <div className="text-2xl font-bold text-gray-800">
-                {final.series}
-              </div>
-            </div>
-            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
-              <div className="text-sm text-yellow-600 font-medium mb-1">
-                Finals MVP
-              </div>
-              <div className="text-2xl font-bold text-yellow-800">
-                {final.mvp}
-              </div>
-            </div>
+      {/* Hero Section */}
+      <div
+        className="rounded-lg overflow-hidden shadow-card-lg mb-8 text-white p-8 md:p-12"
+        style={{
+          background: `linear-gradient(135deg, ${final.teamColors.champion} 0%, ${final.teamColors.runnerUp} 100%)`,
+        }}
+      >
+        <div className="max-w-4xl">
+          <div className="text-sm font-semibold opacity-90 mb-2">
+            {final.era}
           </div>
-
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">
-            Game-by-Game Results
-          </h3>
-          <div className="overflow-x-auto">
-            <table className="w-full border-collapse">
-              <thead>
-                <tr className="bg-gray-100">
-                  <th className="text-left p-3 font-semibold text-gray-700">
-                    Game
-                  </th>
-                  <th className="text-left p-3 font-semibold text-gray-700">
-                    Winner
-                  </th>
-                  <th className="text-left p-3 font-semibold text-gray-700">
-                    Score
-                  </th>
-                  <th className="text-left p-3 font-semibold text-gray-700">
-                    Location
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {final.games.map((game) => (
-                  <tr
-                    key={game.game}
-                    className="border-b border-gray-200 hover:bg-gray-50"
-                  >
-                    <td className="p-3 font-medium">Game {game.game}</td>
-                    <td
-                      className={`p-3 ${
-                        game.winner === final.champion
-                          ? 'text-green-700 font-medium'
-                          : 'text-gray-600'
-                      }`}
-                    >
-                      {game.winner}
-                    </td>
-                    <td className="p-3 font-mono">{game.score}</td>
-                    <td className="p-3 text-gray-600">{game.location}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          <h1 className="text-5xl md:text-6xl font-bold mb-4">
+            {final.year}
+          </h1>
+          <p className="text-xl md:text-2xl opacity-95 mb-6">
+            {final.champion}
+            <span className="mx-2 opacity-75">vs</span>
+            {final.runnerUp}
+          </p>
+          <div className="flex flex-wrap gap-4 text-sm md:text-base">
+            <div className="bg-white bg-opacity-20 rounded-lg px-4 py-2 backdrop-blur-sm">
+              <div className="text-xs opacity-80 mb-1">Series</div>
+              <div className="font-bold text-lg">{final.series}</div>
+            </div>
+            <div className="bg-white bg-opacity-20 rounded-lg px-4 py-2 backdrop-blur-sm">
+              <div className="text-xs opacity-80 mb-1">Finals MVP</div>
+              <div className="font-bold text-lg">{final.mvp}</div>
+            </div>
           </div>
         </div>
       </div>
+
+      {/* Quick Stats */}
+      <div className="grid md:grid-cols-3 gap-6 mb-8">
+        <StatBox
+          label="Champion"
+          value={final.champion}
+          bgColor="bg-green-50"
+          borderColor="border-green-200"
+        />
+        <StatBox
+          label="Series Result"
+          value={final.series}
+          bgColor="bg-blue-50"
+          borderColor="border-blue-200"
+        />
+        <StatBox
+          label="Finals MVP"
+          value={final.mvp}
+          bgColor="bg-yellow-50"
+          borderColor="border-yellow-200"
+        />
+      </div>
+
+      {/* Narrative Section */}
+      {final.narrative && (
+        <Card variant="elevated" className="mb-8 p-6">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Overview</h2>
+          <p className="text-gray-700 leading-relaxed text-lg">
+            {final.narrative}
+          </p>
+        </Card>
+      )}
+
+      {/* Significance & Notable Moments */}
+      <div className="grid md:grid-cols-2 gap-6 mb-8">
+        {final.significance && (
+          <Card variant="elevated" className="p-6">
+            <h3 className="text-lg font-bold text-gray-900 mb-3">
+              Historical Significance
+            </h3>
+            <p className="text-gray-700">{final.significance}</p>
+          </Card>
+        )}
+
+        {final.notableMoments && final.notableMoments.length > 0 && (
+          <Card variant="elevated" className="p-6">
+            <h3 className="text-lg font-bold text-gray-900 mb-3">
+              Notable Moments
+            </h3>
+            <ul className="space-y-2">
+              {final.notableMoments.map((moment, idx) => (
+                <li key={idx} className="text-gray-700 flex items-start">
+                  <span className="mr-3 text-blue-600 font-bold">•</span>
+                  <span>{moment}</span>
+                </li>
+              ))}
+            </ul>
+          </Card>
+        )}
+      </div>
+
+      {/* Game-by-Game Results */}
+      <Card variant="elevated" className="p-6">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          Game-by-Game Results
+        </h2>
+
+        <div className="space-y-4">
+          {final.games.map((game) => {
+            const isChampionWin = game.winner === final.champion
+            return (
+              <div
+                key={game.game}
+                className={`p-4 rounded-lg border-l-4 transition-all ${
+                  isChampionWin
+                    ? 'bg-green-50 border-green-400'
+                    : 'bg-gray-50 border-gray-400'
+                }`}
+              >
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                  <div className="flex-1">
+                    <div className="text-sm font-semibold text-gray-600 mb-1">
+                      Game {game.game}
+                    </div>
+                    <div
+                      className={`text-lg font-bold ${
+                        isChampionWin
+                          ? 'text-green-700'
+                          : 'text-gray-700'
+                      }`}
+                    >
+                      {game.winner}
+                    </div>
+                  </div>
+                  <div className="flex flex-col md:text-right gap-1">
+                    <div className="text-2xl font-bold text-gray-900 font-mono">
+                      {game.score}
+                    </div>
+                    <div className="text-sm text-gray-600">
+                      {game.location}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      </Card>
     </div>
   )
 }
