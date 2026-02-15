@@ -5,6 +5,11 @@
     "runnerUp": "Dallas Mavericks",
     "series": "4-1",
     "mvp": "Jaylen Brown",
+    "teamColors": {
+      "champion": "#007A33",
+      "runnerUp": "#00205B"
+    },
+    "era": "Modern Era",
     "games": [
       { "game": 1, "winner": "Boston Celtics", "score": "107-89", "location": "Boston" },
       { "game": 2, "winner": "Boston Celtics", "score": "105-98", "location": "Boston" },
@@ -19,6 +24,11 @@
     "runnerUp": "Miami Heat",
     "series": "4-1",
     "mvp": "Nikola Jokić",
+    "teamColors": {
+      "champion": "#0E2240",
+      "runnerUp": "#98002E"
+    },
+    "era": "Modern Era",
     "games": [
       { "game": 1, "winner": "Denver Nuggets", "score": "104-93", "location": "Denver" },
       { "game": 2, "winner": "Denver Nuggets", "score": "108-111 (OT)", "location": "Denver" },
@@ -33,6 +43,11 @@
     "runnerUp": "Boston Celtics",
     "series": "4-2",
     "mvp": "Stephen Curry",
+    "teamColors": {
+      "champion": "#1D428A",
+      "runnerUp": "#007A33"
+    },
+    "era": "Warriors Era",
     "games": [
       { "game": 1, "winner": "Boston Celtics", "score": "120-108", "location": "San Francisco" },
       { "game": 2, "winner": "Golden State Warriors", "score": "107-88", "location": "San Francisco" },
@@ -48,6 +63,11 @@
     "runnerUp": "Phoenix Suns",
     "series": "4-2",
     "mvp": "Giannis Antetokounmpo",
+    "teamColors": {
+      "champion": "#12173F",
+      "runnerUp": "#E56021"
+    },
+    "era": "Modern Era",
     "games": [
       { "game": 1, "winner": "Phoenix Suns", "score": "118-105", "location": "Phoenix" },
       { "game": 2, "winner": "Phoenix Suns", "score": "118-108", "location": "Phoenix" },
@@ -63,6 +83,11 @@
     "runnerUp": "Miami Heat",
     "series": "4-2",
     "mvp": "LeBron James",
+    "teamColors": {
+      "champion": "#552583",
+      "runnerUp": "#98002E"
+    },
+    "era": "Modern Era",
     "games": [
       { "game": 1, "winner": "Los Angeles Lakers", "score": "116-98", "location": "Orlando (Bubble)" },
       { "game": 2, "winner": "Los Angeles Lakers", "score": "124-114", "location": "Orlando (Bubble)" },
@@ -78,6 +103,11 @@
     "runnerUp": "Golden State Warriors",
     "series": "4-2",
     "mvp": "Kawhi Leonard",
+    "teamColors": {
+      "champion": "#CE1141",
+      "runnerUp": "#1D428A"
+    },
+    "era": "Warriors Era",
     "games": [
       { "game": 1, "winner": "Toronto Raptors", "score": "118-109", "location": "Toronto" },
       { "game": 2, "winner": "Golden State Warriors", "score": "109-104", "location": "Toronto" },
@@ -93,6 +123,11 @@
     "runnerUp": "Cleveland Cavaliers",
     "series": "4-0",
     "mvp": "Kevin Durant",
+    "teamColors": {
+      "champion": "#1D428A",
+      "runnerUp": "#6F263D"
+    },
+    "era": "Warriors Era",
     "games": [
       { "game": 1, "winner": "Golden State Warriors", "score": "124-114 (OT)", "location": "Oakland" },
       { "game": 2, "winner": "Golden State Warriors", "score": "122-103", "location": "Oakland" },
@@ -106,6 +141,11 @@
     "runnerUp": "Cleveland Cavaliers",
     "series": "4-1",
     "mvp": "Kevin Durant",
+    "teamColors": {
+      "champion": "#1D428A",
+      "runnerUp": "#6F263D"
+    },
+    "era": "Warriors Era",
     "games": [
       { "game": 1, "winner": "Golden State Warriors", "score": "113-91", "location": "Oakland" },
       { "game": 2, "winner": "Golden State Warriors", "score": "132-113", "location": "Oakland" },
@@ -120,6 +160,11 @@
     "runnerUp": "Golden State Warriors",
     "series": "4-3",
     "mvp": "LeBron James",
+    "teamColors": {
+      "champion": "#6F263D",
+      "runnerUp": "#1D428A"
+    },
+    "era": "Warriors Era",
     "games": [
       { "game": 1, "winner": "Golden State Warriors", "score": "104-89", "location": "Oakland" },
       { "game": 2, "winner": "Golden State Warriors", "score": "110-77", "location": "Oakland" },
@@ -136,6 +181,11 @@
     "runnerUp": "Cleveland Cavaliers",
     "series": "4-2",
     "mvp": "Andre Iguodala",
+    "teamColors": {
+      "champion": "#1D428A",
+      "runnerUp": "#6F263D"
+    },
+    "era": "Warriors Era",
     "games": [
       { "game": 1, "winner": "Golden State Warriors", "score": "108-100 (OT)", "location": "Oakland" },
       { "game": 2, "winner": "Cleveland Cavaliers", "score": "95-93 (OT)", "location": "Oakland" },
@@ -151,6 +201,11 @@
     "runnerUp": "Miami Heat",
     "series": "4-1",
     "mvp": "Kawhi Leonard",
+    "teamColors": {
+      "champion": "#C4CED4",
+      "runnerUp": "#98002E"
+    },
+    "era": "Mid 2010s",
     "games": [
       { "game": 1, "winner": "San Antonio Spurs", "score": "110-95", "location": "San Antonio" },
       { "game": 2, "winner": "Miami Heat", "score": "98-96", "location": "San Antonio" },
@@ -165,6 +220,11 @@
     "runnerUp": "San Antonio Spurs",
     "series": "4-3",
     "mvp": "LeBron James",
+    "teamColors": {
+      "champion": "#98002E",
+      "runnerUp": "#C4CED4"
+    },
+    "era": "Mid 2010s",
     "games": [
       { "game": 1, "winner": "San Antonio Spurs", "score": "92-88", "location": "Miami" },
       { "game": 2, "winner": "Miami Heat", "score": "103-84", "location": "Miami" },
@@ -181,6 +241,11 @@
     "runnerUp": "Oklahoma City Thunder",
     "series": "4-1",
     "mvp": "LeBron James",
+    "teamColors": {
+      "champion": "#98002E",
+      "runnerUp": "#007BA7"
+    },
+    "era": "Mid 2010s",
     "games": [
       { "game": 1, "winner": "Oklahoma City Thunder", "score": "105-94", "location": "Oklahoma City" },
       { "game": 2, "winner": "Miami Heat", "score": "100-96", "location": "Oklahoma City" },
@@ -195,6 +260,11 @@
     "runnerUp": "Miami Heat",
     "series": "4-2",
     "mvp": "Dirk Nowitzki",
+    "teamColors": {
+      "champion": "#00205B",
+      "runnerUp": "#98002E"
+    },
+    "era": "Early 2010s",
     "games": [
       { "game": 1, "winner": "Miami Heat", "score": "92-84", "location": "Miami" },
       { "game": 2, "winner": "Dallas Mavericks", "score": "95-93", "location": "Miami" },
@@ -210,6 +280,11 @@
     "runnerUp": "Boston Celtics",
     "series": "4-3",
     "mvp": "Kobe Bryant",
+    "teamColors": {
+      "champion": "#552583",
+      "runnerUp": "#007A33"
+    },
+    "era": "Early 2010s",
     "games": [
       { "game": 1, "winner": "Boston Celtics", "score": "102-89", "location": "Los Angeles" },
       { "game": 2, "winner": "Boston Celtics", "score": "103-94", "location": "Los Angeles" },
